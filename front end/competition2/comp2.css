@@ -1,6 +1,5 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 4px;
     background-color: #bbb;
 }
 
@@ -51,7 +50,7 @@ body{
   /* style for video player */
 
   .player {
-    width:123.3%;
+    width:116.3%;
     border:5px solid rgba(0,0,0,0.2);
     box-shadow:0 0 20px rgba(0,0,0,0.2);
     position: relative;
@@ -205,8 +204,9 @@ body{
   .challenge{
       background-color: white;
       height: 15%;
-      width: 123.3%;
+      width: 116.3%;
       border-radius: 5px;
+      font-size: 20%;
   }
   #the{
       color: deeppink;
@@ -215,7 +215,7 @@ body{
   /* style for containers */
 
   .container1{
-      margin-left: 66.8%;
+      margin-left: 38%;
   }
 
   .container1 .card{
@@ -240,11 +240,12 @@ color: black;
       text-align: center;
   }
 #pos{
- width: 200%;
- margin-left: -50%;
+ width: 100%;
+ margin-left: 0%;
+ background-repeat: no-repeat;
 }
   .container2{
-    margin-left: 29%;
+    margin-left: 15%;
     margin-top: 12%;
   }
   .container2 img{
@@ -258,7 +259,7 @@ color: black;
   /* style for second */
 
   .second .card{
-    margin-left: -28.6%;
+    margin-left: -17.6%;
     margin-top: -8%;
   }
 
@@ -266,7 +267,7 @@ color: black;
 
   #voice{
     background-color: white;
-    margin-left: -17%;
+    margin-left: -10%;
     margin-top: -11%;
     height: 60px;
     border-radius: 4px;
@@ -321,16 +322,16 @@ smalltext{
 /* style for last */
 
 .last img{
-  width: 127%;
-  height: 20%;
-  margin-left: -165%;
+  width: 100%;
+  height: 21%;
+  margin-left: -102%;
   border-radius: 10px;
 }
 .last video{
   object-fit: initial;
-  width: 180px;
-  height:  167px;
-  margin-left: -140%;
+  width: 110%;
+  height:  21%;
+  margin-left: -105%;
   border-radius: 10px;
 }
 
@@ -378,7 +379,7 @@ margin-left: -50%;
 
 #para1{
   margin-top: -3%;
-  margin-left: -19%;
+  margin-left: -12%;
 }
 
 #hr1{
@@ -397,12 +398,12 @@ margin-left: -50%;
     width: 165px;
     }
 #para2{
-  margin-left: -19%;
+  margin-left: -12%;
 }
 
 
 #para3{
-  margin-left: -19%;
+  margin-left: -12%;
 }
 
 #vid{
@@ -413,7 +414,7 @@ margin-left: -50%;
 }
 
 .text3{
-  margin-left: -29.8%;
+  margin-left: -21.5%;
   margin-top: -7%;
 }
 
