@@ -1,0 +1,457 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    background-color: #bbb;
+}
+
+/* style for Navbar */
+.navbar-brand{
+  width: 12%;
+}
+
+.class3 img{
+  max-width: 170px;
+   max-height: 60px;
+    margin-top: -1px;
+}
+.class3 li a{
+  color: white;
+  opacity: 0.5;
+  font-size: 16px; 
+}
+
+.form-control{
+  border-radius: 20px;
+  margin-left:50px;
+  border-radius: 20px;
+  opacity: 0.2;
+  background-color: none;
+ }
+
+ #b{
+   color: white;
+ }
+  /* style for head */
+  .head{
+      border: 1px solid white;
+      height: 52px;
+      margin-top: 25px;
+      background-color: white;
+      border-radius: 4px;
+      margin-left: 29px;
+      margin-right: 30px;
+  }
+  .head h4{
+    margin-top: 0.8%;
+      margin-left: 13px;
+  }
+
+/* style for cards */
+  #card1{
+  margin-top: 3.7%;
+  margin-left: 3%;
+  height: 50%;
+  background-image: url("https://res.cloudinary.com/dloddsbxf/image/upload/v1557876211/IMG-20190514-WA0000_1.jpg");
+  background-repeat: no-repeat center top;
+  background-size: cover;
+  justify-content: center;
+    position: relative;
+  }
+
+  
+
+#card2{
+  margin-top: 7.5%;
+  height: 62%;
+  margin-left: -5%;
+}
+
+#card3{
+  margin-top: 20%;
+  margin-left: 0%;
+  max-width: 28.9rem;
+}
+
+/* style for category */
+.container1{
+  border: 1px solid white;
+  background-color: white;
+  margin-left: 3%;
+  width: 91.3%; 
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 2%;
+}
+
+.category{
+  margin-left: 6%;
+}
+
+.category p{
+  margin-left: -20px;
+}
+.category h5{
+  color: deeppink;
+}
+
+/* style for container2 */
+.container2{
+  border: 1px solid white;
+  background-color: white;
+  margin-left: 3%;
+  width: 91.3%; 
+  border-radius: 4px;
+  margin-top: 3%;
+}
+ .container2 img{
+   height: 135px;
+   width: 57%;
+   margin-top: 10%;
+   margin-left: 10%;
+   border-radius: 4px;
+   margin-bottom: 10%;
+ }
+
+ .container2  p, h6, hr{
+   margin-left: -15%;
+   font-size: 14px;
+ }
+.container2 hr{
+  margin-right: 4%;
+}
+ #button{
+   border: 1px solid lightblue;
+   border-radius: 4px;
+   margin-top: -1%;
+  font-size: 20px;
+  margin-right: 3%
+ }
+
+
+ /* style for container3 */
+ .container3{
+  border-radius: 4px;
+  margin-top: 7%;
+  margin-left: 3%;
+  color: rgba(187, 187, 187, 0.719);
+  width: 91.3%; 
+  background-color: rgba(0, 0, 0, 0.767);
+  height: auto;
+ }
+ .container3 #para{
+   font-size: 12px;
+   margin-left: 1%;
+   margin-right: 5%;
+   margin-top: 10%;
+ }
+
+ #para #up{
+   margin-top: -5%;
+   color:white;
+   font-weight: 1000;
+   margin-left: 25%;
+ }
+
+ #para p{
+   margin-bottom: 2.4%;
+   text-align: center;
+ }
+
+ #entry{
+  margin-right: 20%; 
+  font-size: 12px;
+  margin-left: -15%;
+  margin-top: 10%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+ }
+
+ #entry #up2{
+  margin-top: -5%;
+   color:white;
+   font-weight: 1000;
+   margin-left: 27%; 
+   box-decoration-break: inherit;
+ }
+
+ #entry p{
+  margin-bottom: 5.8%;
+  text-align: center;
+ }
+
+ #entry p i{
+   color: deeppink;
+ }
+ #winner{
+   color: rgba(255, 255, 255, 0.822);
+   font-size: 12px;
+   margin-right: 35px;
+   font-weight: 500;
+ }
+
+ #winner h5{
+   margin-top: 25%;
+   margin-left: 0px;
+ }
+
+ #logo{
+  width: 170px;
+    height: 100px;
+    margin-left: -8.5%;
+}
+/* style for icon */
+#insta{
+  margin-left: 13px; 
+}
+#twi{
+  margin-left: 13px; 
+}
+
+#you{
+  margin-left: 13px; 
+}
+
+#card-body{
+  background-color: rgba(255, 255, 255, 0.199)
+}
+
+#slide{
+  float: right;
+  margin-top: 10%;
+  margin-left: 1%;
+  color: rgba(187, 187, 187, 0.87);
+}
+
+#icon{
+  color: rgba(0, 0, 0, 0.466);
+}
+
+#copy{
+  color:rgba(0, 0, 0, 0.466);
+}
+.card-footer{
+  margin-top: 15.5%;
+  text-align: center;
+  color: blue;
+  width: 110%;
+  margin-left: -5%;
+}
+  /* style for unequal cols */
+  .first-column {
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.second-column {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+ #img1{
+   border: 9px solid white;
+  height: 65%;
+  width: 65%;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-top: 0%;
+}
+
+.second-column ul{
+  text-decoration: none;
+  margin-left: -10%;
+}
+ 
+/* style for cards btn */
+
+.first-column .card #btn{
+  border: 1px solid white;
+  color: white;
+  width: 30%;
+}
+
+
+
+
+.winner-picture-icon{
+  top: 35px;
+  position: relative;
+}
+
+.winner-banner {
+  background-size: 100%;
+  height: 240px;
+}
+
+.winner-banner {
+  width: 70%;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  position: relative;
+  background: url("https://uia.metapop.com/assets/images/wreath.svg") center center / cover no-repeat;
+}
+
+.ui-winner-module .winner-banner .winner-picture-icon .winner-picture img {
+  width: 100%;
+  height: 100%;
+  background: url() center 20px / cover no-repeat rgb(238, 238, 238);
+}
+
+.second-column img{
+  max-width: 48%;
+  align-items: center;
+  margin-left: 25%;
+margin-top: 8%;
+
+}
+#slider img{
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+
+#trophy{
+  color: rgba(187, 187, 187, 0.87);
+  border-radius: 50%;
+  margin-left: 43%;
+  background-color: white;
+  width: 15%;
+  margin-top: -25px; 
+  height: 40px;
+
+  
+}
+
+#trophy i{
+  margin-top: 18px;
+  margin-left: 11px;
+}
+#name{
+  background-color: white;
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+#produce{
+  margin-top: 20%;
+}
+
+/* background */
+
+@keyframes slider {
+  0% { 
+    background-image: url("http://www.thesaccharide.com/wp-content/uploads/2017/01/musician-004-830x693.jpg"); 
+  }
+  25% { 
+    background-image: url("http://images.wisegeek.com/guitarist-playing-an-acoustic-guitar.jpg");
+  }
+  
+  75% { 
+    background-image: url("https://eventschronicles.com/wp-content/uploads/2018/02/skynews-ed-sheeran-glastonbury_4242333.jpg")
+   }
+  100% { 
+    background-image: url("https://i.ytimg.com/vi/8B6jOUzBKYc/maxresdefault.jpg")
+   }
+  
+  
+  }
+  
+
+/* slider image */
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+  }
+  
+
+  #slider { overflow: hidden; }
+#slider figure img { width: 70%; float: left; }
+  #slider figure { 
+    position: relative;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 3s slidy infinite; 
+  }
+  
+
+.container1 a{
+  text-decoration: none;
+}
+
+/* cate style */
+#hr1{
+background-color: black;
+height: 7px;
+margin-top: 20px;
+border-radius: 5px;
+width: 155px;
+}
+#hr2{
+  background-color: black;
+  height: 7px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 155px;
+  }
+  #hr3{
+    background-color: black;
+    height: 7px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 155px;
+    }
+    #hr4{
+      background-color: black;
+      height: 7px;
+      margin-top: 20px;
+      border-radius: 5px;
+      width: 155px;
+      }
+
+
+
+@media (min-width: 320px) and (max-width:812px) {
+
+   .first-column {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+        height: auto;
+    }
+
+    .second-column {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+        height: auto;
+    }
+    
+    .container1{
+      border: 1px solid white;
+      background-color: white;
+      margin-left: 3% auto;
+      max-width: 100%; 
+      border-radius: 4px;
+      font-size: 10px;
+      height: auto;
+    }
+}

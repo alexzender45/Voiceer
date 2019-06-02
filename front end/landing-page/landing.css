@@ -1,0 +1,385 @@
+
+li{
+  margin-left:30px;
+}
+ /* style for form */
+ .form-control{
+  border-radius: 20px;
+  margin-left:50px;
+  border-radius: 20px;
+  opacity: 0.2;
+  background-color: none;
+ }
+ 
+ /* style for class1 */
+ .class1 p{
+  margin-top: 50px;
+  color: white;
+}
+.class1 h4{
+  margin-top: 30px;
+  font-weight: 100px;
+}
+.class1 h1{
+  margin-top: 15%;
+}
+.class1{
+  text-align: center;
+  margin-top:100px;
+  color: white;
+ 
+}
+
+.class1 #btn{
+  background-color: deeppink;
+  min-width: 30%;
+  color:white;
+  height: auto;
+  margin-top: 10px;
+}
+.navbar-brand{
+  width: 16%;
+}
+
+
+/* style for class3 */
+.class3 img {
+  width: 170px;
+    height: 100px;
+   
+}
+
+.class3 li a{
+  color: white;
+  opacity: 0.5; 
+}
+.class3 #b{
+  border: 1px solid white;
+  margin-right: 5%;
+  color: white;
+  width: auto;
+}
+.class3{
+  height: 100vh;
+}
+.class3{
+  background-image: url("https://res.cloudinary.com/dloddsbxf/image/upload/v1557876211/IMG-20190514-WA0000_1.jpg");
+  background-repeat: no-repeat center top;
+  background-size: cover;
+  justify-content: center;
+    position: relative;
+
+}
+/* style for image */
+.col-sm-6 img {
+  width: 100%;
+  height: 35%;
+}
+
+.col-sm-6 h1 {
+  width: 100%;
+}
+
+
+/*background-color: rgba(0,0,0,.05);*/
+/* style for test2 and hos1 */
+
+.test2{
+  background-color: rgba(0, 0, 0, 0.651);
+  width: 100%;
+  height: 110% auto;
+  color: white;
+}
+.test2 hr{
+  background-color: deeppink;
+  margin-left: 36%;
+  margin-right: 9%; 
+}
+
+.test2 .join{
+  margin-left: 8%; 
+}
+ 
+.test2 .join2{
+  margin-left: 17%; 
+}
+.test2 h1{
+  margin-top: 30%;
+  font-size: 50px;
+  margin-left: 17%;
+}
+
+.hos{
+  margin-left: 43%;
+}
+
+.test2 p{
+  margin-left: 42% ;
+  margin-bottom: 20%;
+}
+
+.hos1{
+  margin-left:20%;
+}
+
+
+.test2 img{
+  margin-top: 30%;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 20%;
+
+}
+
+/* style for test */
+.test{
+  background-color: rgba(0,0,0,.05);
+  width: 100%;
+  height: 120% auto;
+}
+.test h1{
+  margin-top: 30%;
+  color:black;
+  font-size: 50px;
+}
+
+.test hr{
+  background-color: deeppink;
+  margin-right: 55%;
+}
+.test img{
+  margin-top: 20%;
+  height: auto;
+  max-width: 100%;
+  margin-left: 0%;
+  margin-bottom: 20%;
+}
+
+
+
+/* start style */
+.start{
+  width: 100%;
+  background-color: rgba(0,0,0,.05);
+  height: auto;
+}
+.start img{
+  margin-top: 30%;
+max-width: 100%;
+margin-left: 33%;
+height: auto;
+text-align: center;
+
+
+}
+
+.start h3{
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.start p{
+  text-align: center;
+  margin-bottom: 30%;
+}
+
+.start h1{
+margin-top: 10%;
+}
+
+#horizon{
+  height: 7px;
+  background-color: deeppink;
+  margin-right: 80%;
+  margin-left: -1%;
+  margin-top: 2%;
+}
+
+/* style for start2 */
+.start2{
+  background-color: rgba(0, 0, 0, 0.774);
+  color:white;
+  width: 100%;
+  height: 100% auto;
+}
+
+.start2 img{
+  height: auto;
+  max-width: 100%;
+  margin-left: 16%;
+  margin-bottom: 20%
+}
+.start2 i{
+  margin-left: 10px;
+}
+.start2 #btn{
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.062);
+  border-radius: 0%;
+  border: 2px solid white;
+  color: white;
+}
+
+.start2 h1{
+  margin-top: 15%;
+}
+.start2 hr{
+  height: 7px;
+  background-color: deeppink;
+  margin-right: 50%;
+  
+}
+
+/*style for start3 */
+.start3{
+  height: 70%;
+  background-color: rgba(0,0,0,.05);
+}
+
+.start3 #btn{
+ min-width: 25%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: deeppink;
+  color: white;
+}
+
+.start3 h1{
+  margin-top: 9%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.start3 h3{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* style for footer */
+.row{
+  margin-right: 10px;
+    margin-left: -10px;
+    height: auto;
+}
+.footer{
+  background-color: black;
+  text-align: center;
+ max-height:20%;
+ max-width: 100%;
+}
+
+.footer img{
+  margin-top: 29%;
+  width:60%;
+  height: 40%;
+}
+
+.footer i{
+  color: white;
+  margin-top: 18%;
+  margin-left: 5%;
+}
+.footer p{
+  color:white;
+  margin-top: 86%;
+  font-size: 13px;
+  opacity: 0.4;
+}
+.footer ul{
+
+margin-top: 20%;
+display: flex;
+font-size: 13px;
+margin-top: 17%;
+}
+
+.footer ul a{
+  text-decoration: none;
+  color: white; 
+  margin-top: 10%;
+  
+}
+
+
+
+
+
+
+/* for 360- 640 
+@media (min-width: 360px) and (max-width: 640px) { 
+.class3{
+  height: 100%;
+}
+#btn{
+  width: 60%;
+}
+ }
+
+/* for 411- 731 
+ @media (min-width: 411px) and (max-width: 731px) { 
+  .class3{
+    height: 80%;
+   }
+  }
+
+  /* for 320- 568 
+  @media (min-width: 320px) and (max-width: 568px) { 
+    .class3{
+      height: 115%;
+    }
+    #btn{
+      width: 60%;
+    }
+     }
+
+     @media (min-width: 375px) and (max-width: 667px) { 
+      .class3{
+        height: 100%;
+      }
+      #btn{
+        width: 60%;
+      }
+       } 
+       
+       @media (min-width: 414px) and (max-width: 736px) { 
+        .class3{
+          height: 80%;
+        }
+        #btn{
+          width: 60%;
+        }
+         }
+
+         @media (min-width: 375px) and (max-width: 1812px) { 
+          .class3{
+            height: 100%;
+          }
+          #btn{
+            width: 60%;
+          }
+           }
+
+           @media (min-width: 1024px) and (max-width: 1366px) { 
+            .class3{
+              height: 65%;
+            }
+            #btn{
+              width: 30%;
+              
+            }
+            
+             }
+
+             @media (min-width: 1199px) and (max-width: 756px) { 
+              .class3{
+                height: 65%;
+              }
+              #btn{
+                width: 20%;
+                
+              }
+              
+               } */    

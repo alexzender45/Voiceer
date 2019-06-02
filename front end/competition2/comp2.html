@@ -1,0 +1,318 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+<title> Voiceer </title>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel = 'stylesheet' href = "comp2.css">
+</head>
+<body>
+  <div class = "class1">  
+  <nav class="navbar navbar-expand-lg" style = "background-color: rgba(0, 0, 0, 0.76)">
+    <a class="navbar-brand" href="../landing-page/landing.html"><img src = "https://res.cloudinary.com/dloddsbxf/image/upload/v1557875352/voiceer_logo_transparent.png" class = "img img-responsive"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Discover</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style = "margin-left: 7%">Competitions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style = "margin-left: 25%">Groups</a>
+      </li>
+      <form class="form-inline my-2 my-lg-0">
+          <i class="far fa-search"></i>
+        <input class="form-control m" type="search" placeholder="Search voiceer" aria-label="Search">
+      </form>
+    </ul>
+      <a id = "b1" class="btn" href="#" role="button" style = "font-size: 12px">LOGIN</a>
+  </div>
+</div>
+</nav>
+<header>
+        <div class = "head">
+            <h4><b>Category A (Hip hop vocal challenge)</b></h4>
+        </div> 
+      </header>
+      <main>
+        <!--container for first-->
+            <div class = "first">
+          <div class = "container">
+              <div class = "row">
+                  <div class = "col-8">
+                    <div class="player">
+                        <video class="player__video viewer" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
+                       id = "Pos" poster = "http://www.thesaccharide.com/wp-content/uploads/2017/01/musician-004-830x693.jpg">
+                       <button class="player__button toggle" title="Toggle Play">►</button>
+                      </video> 
+                        <div class="player__controls">
+                          <div class="progress">
+                           <div class="progress__filled"></div>
+                          </div>
+                          <input type="range" name="volume" class="player__slider" min=0 max="1" step="0.05" value="1">
+                          <input type="range" name="playbackRate" class="player__slider" min="0.5" max="2" step="0.1" value="1">
+                          <button data-skip="-10" class="player__button">« 10s</button>
+                          <button data-skip="25" class="player__button">25s »</button>
+                          <button  class="player__btn">Fullscr</button>
+                        </div>
+                      </div>
+                      <div class = "challenge">
+                          <h6>Ezgod</h6>
+                          <h5><b>Lone Wolf (ft. Wasiu)</b><span id = "the" style="margin-left: 60%">The Challenge</span></h5>
+                      </div>
+                  </div>
+                  <div class = "col-4">
+                    <div class = "row">
+                      <div class = "container1">
+                            <div class="card" style="width: 33rem;">
+                                    <h5 class="card-header">Entry Rules</h5>
+                                    <div class = "img1" style = "background-image: url('http://images.wisegeek.com/guitarist-playing-an-acoustic-guitar.jpg')">
+                                        <h5 id = "ends">Competition ends on June 5, 2019</h>
+                                            <div id="clockdiv"> 
+                                                    <div> 
+                                                      <span class="days" id="day"></span> 
+                                                      <div class="smalltext">DAYS</div> 
+                                                    </div>
+                                                    <div class = "dot"><i class="fas fa-ellipsis-v"></i></div> 
+                                                    <div> 
+                                                      <span class="hours" id="hour"></span> 
+                                                      <div class="smalltext">HOURS</div> 
+                                                    </div> 
+                                                    <div class = "dot"><i class="fas fa-ellipsis-v"></i></div>
+                                                    <div> 
+                                                      <span class="minutes" id="minute"></span> 
+                                                      <div class="smalltext">MINS</div> 
+                                                    </div>
+                                                    <div class = "dot"><i class="fas fa-ellipsis-v"></i></div> 
+                                                    <div>
+                                                     
+                                                      <span class="seconds" id="second"></span> 
+                                                      <div class="smalltext">SECS</div> 
+                                                    </div> 
+                                                  </div> 
+                                                    
+                                                  <p id="demo"></p>
+                                    </div>
+                                    <div class="card-body">
+                                            <h5 class="card-title"><b>To qualify, you must:</b></h5>
+                                            <p> <p><i class="far fa-check-circle" style="font-size: 1em"></i> Create a 30min video clip</p>
+                                            <p> <p><i class="far fa-check-circle" style="font-size: 1em"></i> Obtain a minimum of 5k votes</p>
+                                            <p> <p><i class="far fa-check-circle" style="font-size: 1em"></i> Create a quick profile</p>
+                                            <p> <p><i class="far fa-check-circle" style="font-size: 1em"></i> Be vocal and audible in your video clip</p>
+                                      <a href="#" class="btn btn-primary" id = "btn">JOIN</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!--div for second column-->
+                  
+          <div class = "second">
+              <div class = "container">
+                <div class = "row">
+                  <div class = "col-8">
+                      <div class="card" style="width: 56.4em">
+                          <div class="card-header">
+                           <b>OVERVIEW</b>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Welcome to the official challenge for this month</h5>
+                            <p class="card-text">Welcome to the official remix competition for Egzod's peaktime<br>
+                              banger, "Lone Wolf ft. Wasiu". The portugal-born, France-bred<br>
+                              artist is making waves in the global trap and future base scene</p>
+                              <button onclick = "showMore()"> Show More</button>
+                              <span id = "more">
+                                <p>You need to put in your best</p>
+                                <p>You can be the winner if you work hard</p>
+                                <p>You can be a winner just put in your best</p>
+                                <p>You can be a winner just put in your best</p>
+                                <p>You can be a winner just put in your best</p>
+                              </span>
+                          </div>
+                        </div>
+                  </div>
+                  <div class = "col-4">
+                  <div class = "container2">   
+                    <div class="card" style="width: 33rem;">
+                            <h5 class="card-header">PRIZES</h5>
+                            <div class = "img2" style = "background-image: url('http://images.wisegeek.com/guitarist-playing-an-acoustic-guitar.jpg')">
+                                <h5 id = "ends">PROVIDED BY</h5>
+                                  <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NI_Logo.svg/1280px-NI_Logo.svg.png">    
+                            </div>
+                            <div class="card-body">
+                                    <h6 class="card-title">3 Winners will be selected base on highest votes</h6>
+                                    <p> <p><i class="far fa-check-circle" style="font-size: 1em"></i> First Price: 1million naira</p>
+                                    <p> <p><i class="far fa-check-circle" style="font-size: 1em"></i> Second Price: 600,000 naira</p>
+                                    <p> <p><i class="far fa-check-circle" style="font-size: 1em"></i> Third Price: 400,000 naira</p>
+                              <a href="#" id="down"><button>prizes</button></a>
+                            </div>
+                          </div>
+                          </div>
+            </div>
+                </div>
+              </div>
+          </div>
+          <div class = "third">
+            <div class = "container">
+              <div class = "row">
+                <div class = "col-9.5" id = "voice" style="width:79%">
+                  <div class = "row">
+                    <div class = "col-3">
+                     <p><a href = "#roll" style="text-decoration: none" id = "contestant" onclick = "toggle1()"><b>Constants (15)</b></a></p>
+                     <hr id = "hr1">
+                    </div>
+                    <div class = "col-3">
+                       <p><a href = "#open" style="text-decoration: none" onclick = "toggle2()"><b>Open Discussion (20)</b></a></p>
+                       <hr id = "hr2">
+                      </div>
+                      <div class = "col-6">
+                       <h5 style = "margin-top: 3.8%"><b>WHO VOICE IT BEST??</b> <a href = "#" style="text-decoration: none"><b style = "color: deeppink">start voting</b></a></h5>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <div class = "roll" id = "roll">
+              <p id = "para1">@Lucunna Memorial added a track 3 hour ago</p>
+              <div class = "row">
+                <div class = "col-10">
+                  <div class = "last" id = "last">
+                  <div class = "row">
+                    <div class = "col-2">
+                     <img src = 'http://images.wisegeek.com/guitarist-playing-an-acoustic-guitar.jpg'>
+                    </div>
+                    <div class = "col-2">
+                      <video controls poster = "../images/play.png" id = "vid"  src= "https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164" type="video/mp4" >
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class = "col-4">
+                     <h5>Balogun Afeez</h5> 
+                     <p>Join competition 24days ago</p>
+                     <a id = "b" class="btn" href="#" role="button" style = "font-size: 12px">VOTE</a>
+                     <ul>
+                       <a href = "#"  style="border: 2px solid white">Likes (1)</a>
+                       <a href = "#"  style="border: 2px solid white">Comments(20)</a>
+                       <a href = "#"  style="border: 2px solid white"><i class="fas fa-share-alt" style="color:deeppink"></i>Share</a>
+                     </ul>
+                    </div>
+                    <div class = "col-4">
+                        <h4 class = "circle"><b>100 VOTES</b></h4>
+                        <h4 style="color:deeppink">Voters</h4>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class = "text3">
+                 <p>uploaded 6hrs ago<br>
+                  This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook
+                  </p>
+              </div>
+              <!--second contestant-->
+              <p id = "para2">@Lucunna Memorial added a track 3 hour ago</p>
+              <div class = "row">
+                <div class = "col-10">
+                  <div class = "last">
+                  <div class = "row">
+                    <div class = "col-2">
+                     <img src = '../images/mary.jpg'>
+                    </div>
+                    <div class = "col-2">
+                      <video controls poster = "../images/mary.jpg" id = "vid"  src = "https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164" type="video/mp4" >
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class = "col-4">
+                     <h5>Mary Alex</h5> 
+                     <p>Join competition 24days ago</p>
+                     <a id = "b" class="btn" href="#" role="button" style = "font-size: 12px">VOTE</a>
+                     <ul>
+                       <a href = "#"  style="border: 2px solid white">Likes (1)</a>
+                       <a href = "#"  style="border: 2px solid white">Comments(20)</a>
+                       <a href = "#"  style="border: 2px solid white"><i class="fas fa-share-alt" style="color:deeppink"></i>Share</a>
+                     </ul>
+                    </div>
+                    <div class = "col-4">
+                        <h4 class = "circle"><b>100 VOTES</b></h4>
+                        <h4 style="color:deeppink">Voters</h4>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class = "text3">
+                 <p>uploaded 6hrs ago<br>
+                  This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook
+                  </p>
+              </div>
+              <!--contestant three-->
+              <p id = "para3">@Lucunna Memorial added a track 3 hour ago</p>
+              <div class = "row">
+                <div class = "col-10">
+                  <div class = "last">
+                  <div class = "row">
+                    <div class = "col-2">
+                     <img src = '../images/sam.jpg'>
+                    </div>
+                    <div class = "col-2">
+                      <video controls poster = "../images/sam.jpg" id = "vid"  src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164" type="video/mp4" >
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class = "col-4">
+                     <h5>Samuel Alex</h5> 
+                     <p>Join competition 24days ago</p>
+                     <a id = "b" class="btn" href="#" role="button" style = "font-size: 12px">VOTE</a>
+                     <ul>
+                       <a href = "#"  style="border: 2px solid white">Likes (1)</a>
+                       <a href = "#"  style="border: 2px solid white">Comments(20)</a>
+                       <a href = "#"  style="border: 2px solid white"><i class="fas fa-share-alt" style="color:deeppink"></i>Share</a>
+                     </ul>
+                    </div>
+                    <div class = "col-4">
+                        <h4 class = "circle"><b>100 VOTES</b></h4>
+                        <h4 style="color:deeppink">Voters</h4>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class = "text3">
+                 <p>uploaded 6hrs ago<br>
+                  This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook<br>
+                      This will be your link for social media post this is for facebook
+                  </p>
+              </div>
+              <!--for open discussion-->
+              </div>
+              </div>
+            </div>
+            <di class = "open" id = "open">
+              <p>For you to join discussion you need to login and sign up</p>
+            </di>
+      </main>
+      <script src = "comp2.js"></script>
+</body>
+</html>
