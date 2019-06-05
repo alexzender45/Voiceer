@@ -1,0 +1,175 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    background-color: #bbb;
+}
+
+/* style for Navbar */
+.navbar-brand{
+  width: 12%;
+}
+
+.class3 img{
+  max-width: 170px;
+   max-height: 60px;
+    margin-top: -1px;
+}
+.class3 li a{
+  color: white;
+  opacity: 0.5;
+  font-size: 16px; 
+}
+
+.form-control{
+  border-radius: 20px;
+  margin-left:50px;
+  border-radius: 20px;
+  opacity: 0.2;
+  background-color: none;
+ }
+
+ #b{
+   color: white;
+ }
+
+ /* style cover */
+ .con img{
+    width: 60%;
+    height: 60%;
+    border-radius: 100%; 
+    margin-top: 60px; 
+    margin-left: -34%;
+ }
+
+.con{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100%;
+    height: 35%;
+}
+
+ .box {
+    margin:0 40px;
+    width:270px;
+    height:43px;
+    border:7px solid rgba(0, 0, 0, 0.041);
+    border-radius:4px;
+    border-bottom-right-radius: 300px;
+    margin-top: 97px;
+    margin-left: -80%;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+
+  }
+
+  .box1 {
+    margin:0 40px;
+    width:240px;
+    height:33px;
+    border:7px solid rgba(0, 0, 0, 0.041);
+    border-radius:8px;
+    border-bottom-right-radius: 300px;
+    margin-top: 5px;
+    margin-left: -80%;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+
+  }
+
+  /* style for circle */
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.829);
+    line-height: 30px;
+    text-align: center;
+    background: white;
+    border: 6px solid white;
+    margin-top: 67px;
+    margin-left: -92%;
+  }
+
+  /* style for par */
+  .par{
+      margin-top: -10%;
+  }
+
+
+  #hr1{
+    background-color: black;
+    height: 7px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 110px;
+    margin-left: -17%;
+    }
+    #hr2{
+      background-color: black;
+      height: 7px;
+      margin-top: 15px;
+      border-radius: 5px;
+      width: 145px;
+      margin-left: -25%;
+      }
+
+      #hr3{
+        background-color: black;
+        height: 7px;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 110px;
+        margin-left: -17%;
+        }
+  /* style for con2 */
+  .con1{
+    height: 11.5%;
+  }
+  .con1 a{
+text-decoration: none;
+color:rgba(0, 0, 0, 0.603);
+  }
+
+#top{
+  margin-top: 14px;
+}
+
+  .con2{
+      margin-top: 2%;
+  }
+  .con2 #btn1{
+      background:rgba(0, 153, 255, 0.918);
+      width: 80%;
+      margin-left: -22%;
+      color: white;
+  }
+  .con2 #btn{
+    background: white;
+    width: 80%;
+    margin-left: 40%;
+}
+
+/* style for con3 */
+.long{
+  background-color: white;
+  border: 1px solid white;
+  height: 55px;
+  border-radius: 5px;
+  margin-left: -16.5%;
+  margin-top: 4%;
+}
+.long h4{
+  margin-top: 9px;
+  margin-left: 5%;
+}
+
+#track {
+  margin-left: -16.5%;
+  margin-top: 2%;
+}
+/* style for long1 */
+.long1{
+  margin-top: 8%;
+  margin-left: 8%;
+}
+
