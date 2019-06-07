@@ -1,0 +1,625 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+<title> Voiceer </title>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel = 'stylesheet' href = "group.css">
+</head>
+<body>
+  <div class = "class3">  
+  <nav class="navbar navbar-expand-lg" style = "background-color: rgba(0, 0, 0, 0.76)">
+    <a class="navbar-brand" href="../landing-page/landing.html"><img src = "https://res.cloudinary.com/dloddsbxf/image/upload/v1557875352/voiceer_logo_transparent.png" class = "img img-responsive"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Discover</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style = "margin-left: 7%">Competitions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style = "margin-left: 25%">Groups</a>
+      </li>
+      <form class="form-inline my-2 my-lg-0">
+          <i class="far fa-search"></i>
+        <input class="form-control m" type="search" placeholder="Search voiceer" aria-label="Search">
+      </form>
+    </ul>
+      <a id = "b" class="btn" href="#" role="button" style = "font-size: 12px">LOGIN</a>
+      <a id = "b" class="btn btn-primary" href="#" role="button" style = "font-size: 12px">SIGNUP</a>
+  </div>
+</div>
+</nav>
+<main>
+    <div class = "container">
+        <div class = "header">
+        <div class = "row">
+            <div class = "col-12" id = "discover">
+            <h5><span id = "dis">Discover Groups</span><span id = "group"><a href = "#" class = "btn btn-primary btn-sm">+ CREATE GROUPS</a></span></h5>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class = "container1"> 
+        <div class = "feed">
+            <h4 style="color: white">WHY </h4>
+            <div id = "better">
+            <p>Join a group with like-minded artists. Get listeners, feedback, and knowledge. Become a better artist.</p>
+            </div> 
+        <div class = "search">
+                <input class="form-control" type="search" placeholder="Search voiceer" aria-label="Search">
+                </div>
+                <div class = "row">
+                    <div class = "col-6">
+                        <div class = "row" >
+                            <div class = "col-3" id = "Popular">
+                                    <b><p>Popular Tags:</p></b>
+                            </div>
+                            <div class = "col-2">
+                              <a href = "#" class = "btn btn-sm" id = "tag" style="margin-left: -50%">#electronic</a>  
+                            </div>
+                            <div class = "col-2">
+                                    <a href = "#" class = "btn btn-sm" id = "tag"><p>#progressive</p></a>  
+                            </div>
+                            <div class = "col-2">
+                                    <a href = "#" class = "btn btn-sm" id = "tag">#future</a>     
+                            </div>
+                            <div class = "col-2">
+                                    <a href = "#" class = "btn btn-sm" id = "tag" style="margin-left: -100%">#ambient</a>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row" style="margin-top: 3%" id = "all">
+                    <div class = "col-4">
+                   <h4 style="margin-left: 5%">All Groups</h4>
+                    </div>
+                    <div class = "col-8">
+                       <a href = "#" onclick = "toggle1()"><i class="fas fa-list" style="margin-left: 93%" id = "icon1"></i></a>
+                       <a href = "#" onclick="toggle2()"><i class="fas fa-th" id = "icon2"></i></a> 
+                        </div>
+                        
+                </div>
+                <hr id = "hr1">
+                <div class = "row" id = "display">
+                    <div class = "col-1">
+                     <a href = "#">GROUP</a>
+                    </div>
+                    <div class = "col-1">
+                        <p style="margin-left: 650%">TAGS</p>
+                        </div>
+                        <div class = "col-6">
+                        <a href = "#" style="margin-left: 105%">MEMBER </a>
+                            </div>
+                            <div class = "col-3">
+                                    <a href = "#" style="margin-left: 55%">RECENT ACTIVITY</a>
+                                </div>
+                                <div class = "col-1">
+                                        <a href = "#" style="margin-left: 25%">CREATED</a>
+                                    </div>
+                </div>
+                <div id = "grid">
+                <div class = "row" id = "div8">
+                        <div class = "col-1">
+                          <a href = "#"><img src = "../images/sam.jpg"></a>  
+                        </div>
+                        <div class = "col-2" style="margin-left: -3%">
+                            <a href = "#">
+                                <h6>Voiceer Team</h6>
+                                <p style="margin-top: -2%">Your feedback is important to us </p>
+                            </a>
+                            </div>
+                            <div class = "col-2" id = "btn3">
+                                <div class = "row">
+                                    <div class = "col-4">
+                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                    </div>
+                                    <div class = "col-4">
+                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                        </div>
+                                        <div class = "col-4">
+                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                            </div>
+                                </div>
+                            
+                                </div>
+                                <div class = "col-1" id = "active">
+                            <h6><i class="fas fa-circle"></i> 5 of 509</h6>
+                                    </div>
+                                    <div class = "col-1" id = "msg">
+                            <h6>7+ Msgs</h6>
+                                        </div>
+                                        <div class = "col-1" id = "time">
+                            <h6>2 days ago</h6>
+                                            </div>
+                                           
+                    </div>
+                    <hr style="border-top: 2px dashed" id = "hr2">
+                    <!--second group-->
+                    <div class = "row" id = "div8">
+                            <div class = "col-1">
+                              <a href = "#"><img src = "../images/sam.jpg"></a>  
+                            </div>
+                            <div class = "col-2" style="margin-left: -3%">
+                                <a href = "#">
+                                    <h6>Voiceer Team</h6>
+                                    <p style="margin-top: -2%">Your feedback is important to us </p>
+                                </a>
+                                </div>
+                                <div class = "col-2" id = "btn3">
+                                    <div class = "row">
+                                        <div class = "col-4">
+                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                        </div>
+                                        <div class = "col-4">
+                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                            </div>
+                                            <div class = "col-4">
+                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                </div>
+                                    </div>
+                                
+                                    </div>
+                                    <div class = "col-1" id = "active">
+                                <h6><i class="fas fa-circle"></i> 5 of 509</h6>
+                                        </div>
+                                        <div class = "col-1" id = "msg">
+                                <h6>7+ Msgs</h6>
+                                            </div>
+                                            <div class = "col-1" id = "time">
+                                <h6>2 days ago</h6>
+                                                </div>
+                                               
+                        </div>
+                        <hr style="border-top: 2px dashed" id = "hr2">
+                        <!--third group-->
+                        <div class = "row" id = "div8">
+                                <div class = "col-1">
+                                  <a href = "#"><img src = "../images/sam.jpg"></a>  
+                                </div>
+                                <div class = "col-2" style="margin-left: -3%">
+                                    <a href = "#">
+                                        <h6>Voiceer Team</h6>
+                                        <p style="margin-top: -2%">Your feedback is important to us </p>
+                                    </a>
+                                    </div>
+                                    <div class = "col-2" id = "btn3">
+                                        <div class = "row">
+                                            <div class = "col-4">
+                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                            </div>
+                                            <div class = "col-4">
+                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                </div>
+                                                <div class = "col-4">
+                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                    </div>
+                                        </div>
+                                    
+                                        </div>
+                                        <div class = "col-1" id = "active">
+                                    <h6><i class="fas fa-circle"></i> 5 of 509</h6>
+                                            </div>
+                                            <div class = "col-1" id = "msg">
+                                    <h6>7+ Msgs</h6>
+                                                </div>
+                                                <div class = "col-1" id = "time">
+                                    <h6>2 days ago</h6>
+                                                    </div>
+                                                   
+                            </div>
+                            <hr style="border-top: 2px dashed" id = "hr2">
+                            <!--fourth group-->
+                            <div class = "row" id = "div8">
+                                    <div class = "col-1">
+                                      <a href = "#"><img src = "../images/sam.jpg"></a>  
+                                    </div>
+                                    <div class = "col-2" style="margin-left: -3%">
+                                        <a href = "#">
+                                            <h6><b>Voiceer Team</b></h6>
+                                            <p style="margin-top: -2%">Your feedback is important to us </p>
+                                        </a>
+                                        </div>
+                                        <div class = "col-2" id = "btn3">
+                                            <div class = "row">
+                                                <div class = "col-4">
+                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                </div>
+                                                <div class = "col-4">
+                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                    </div>
+                                                    <div class = "col-4">
+                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                        </div>
+                                            </div>
+                                        
+                                            </div>
+                                            <div class = "col-1" id = "active">
+                                        <h6><i class="fas fa-circle"></i> 5 of 509</h6>
+                                                </div>
+                                                <div class = "col-1" id = "msg">
+                                        <h6>7+ Msgs</h6>
+                                                    </div>
+                                                    <div class = "col-1" id = "time">
+                                        <h6>2 days ago</h6>
+                                                        </div>
+                                                       
+                                </div>
+                                <hr style="border-top: 2px dashed" id = "hr2">
+
+                                <div class = "row" id = "div8">
+                                        <div class = "col-1">
+                                          <a href = "#"><img src = "../images/sam.jpg"></a>  
+                                        </div>
+                                        <div class = "col-2" style="margin-left: -3%">
+                                            <a href = "#">
+                                                <h6>Voiceer Team</h6>
+                                                <p style="margin-top: -2%">Your feedback is important to us </p>
+                                            </a>
+                                            </div>
+                                            <div class = "col-2" id = "btn3">
+                                                <div class = "row">
+                                                    <div class = "col-4">
+                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                    </div>
+                                                    <div class = "col-4">
+                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                        </div>
+                                                        <div class = "col-4">
+                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                            </div>
+                                                </div>
+                                            
+                                                </div>
+                                                <div class = "col-1" id = "active">
+                                            <h6><i class="fas fa-circle"></i> 5 of 509</h6>
+                                                    </div>
+                                                    <div class = "col-1" id = "msg">
+                                            <h6>7+ Msgs</h6>
+                                                        </div>
+                                                        <div class = "col-1" id = "time">
+                                            <h6>2 days ago</h6>
+                                                            </div>
+                                                           
+                                    </div>
+                                    <hr style="border-top: 2px dashed" id = "hr2">
+
+                                    <div class = "row" id = "div8">
+                                            <div class = "col-1">
+                                              <a href = "#"><img src = "../images/sam.jpg"></a>  
+                                            </div>
+                                            <div class = "col-2" style="margin-left: -3%">
+                                                <a href = "#">
+                                                    <h6>Voiceer Team</h6>
+                                                    <p style="margin-top: -2%">Your feedback is important to us </p>
+                                                </a>
+                                                </div>
+                                                <div class = "col-2" id = "btn3">
+                                                    <div class = "row">
+                                                        <div class = "col-4">
+                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                        </div>
+                                                        <div class = "col-4">
+                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                            </div>
+                                                            <div class = "col-4">
+                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                </div>
+                                                    </div>
+                                                
+                                                    </div>
+                                                    <div class = "col-1" id = "active">
+                                                <h6><i class="fas fa-circle"></i> 5 of 509</h6>
+                                                        </div>
+                                                        <div class = "col-1" id = "msg">
+                                                <h6>7+ Msgs</h6>
+                                                            </div>
+                                                            <div class = "col-1" id = "time">
+                                                <h6>2 days ago</h6>
+                                                                </div>
+                                                               
+                                        </div>
+                                        <hr style="border-top: 2px dashed" id = "hr2">
+
+                                        <div class = "row" id = "div8">
+                                                <div class = "col-1">
+                                                  <a href = "#"><img src = "../images/sam.jpg"></a>  
+                                                </div>
+                                                <div class = "col-2" style="margin-left: -3%">
+                                                    <a href = "#">
+                                                        <h6>Voiceer Team</h6>
+                                                        <p style="margin-top: -2%">Your feedback is important to us </p>
+                                                    </a>
+                                                    </div>
+                                                    <div class = "col-2" id = "btn3">
+                                                        <div class = "row">
+                                                            <div class = "col-4">
+                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                            </div>
+                                                            <div class = "col-4">
+                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                </div>
+                                                                <div class = "col-4">
+                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                    </div>
+                                                        </div>
+                                                    
+                                                        </div>
+                                                        <div class = "col-1" id = "active">
+                                                    <h6><i class="fas fa-circle"></i> 5 of 509</h6>
+                                                            </div>
+                                                            <div class = "col-1" id = "msg">
+                                                    <h6>7+ Msgs</h6>
+                                                                </div>
+                                                                <div class = "col-1" id = "time">
+                                                    <h6>2 days ago</h6>
+                                                                    </div>
+                                                                   
+                                            </div>
+                                            <hr style="border-top: 2px dashed" id = "hr2">
+
+                                            <div class = "row" id = "div8">
+                                                    <div class = "col-1">
+                                                      <a href = "#"><img src = "../images/sam.jpg"></a>  
+                                                    </div>
+                                                    <div class = "col-2" style="margin-left: -3%">
+                                                        <a href = "#">
+                                                            <h6>Voiceer Team</h6>
+                                                            <p style="margin-top: -2%">Your feedback is important to us </p>
+                                                        </a>
+                                                        </div>
+                                                        <div class = "col-2" id = "btn3">
+                                                            <div class = "row">
+                                                                <div class = "col-4">
+                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                </div>
+                                                                <div class = "col-4">
+                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                    </div>
+                                                                    <div class = "col-4">
+                                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                        </div>
+                                                            </div>
+                                                        
+                                                            </div>
+                                                            <div class = "col-1" id = "active">
+                                                        <h6><i class="fas fa-circle"></i> 5 of 509</h6>
+                                                                </div>
+                                                                <div class = "col-1" id = "msg">
+                                                        <h6>7+ Msgs</h6>
+                                                                    </div>
+                                                                    <div class = "col-1" id = "time">
+                                                        <h6>2 days ago</h6>
+                                                                        </div>
+                                                                       
+                                                </div>
+                                                <hr style="border-top: 2px dashed" id = "hr2">
+                                                </div>
+                                               
+                                                <div id = "select">
+                                                <div class = "row" id = "cards">
+                                                    <div class = "col-3">
+                                                            <div class="card" style="width: 18rem;">
+                                                                    <img class="card-img-top" src="../images/sam.jpg" alt="Card image cap">
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">Voiceer Team</h5>
+                                                                      <p class="card-text"><i class="far fa-user"></i> 700 Members</p>
+                                                                      <p class="card-text">Your feedback is important to us </p>
+                                                                      <div class = "row" id = "btnset">
+                                                                            <div class = "col-4">
+                                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                            </div>
+                                                                            <div class = "col-4">
+                                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                </div>
+                                                                                <div class = "col-4">
+                                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                    </div>
+                                                                        </div>
+                                                                      <a href="#" class="btn btn-primary" id = "btnset1">View Group</a>
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                            <div class = "col-3">
+                                                                    <div class="card" style="width: 18rem;">
+                                                                            <img class="card-img-top" src="../images/sam.jpg" alt="Card image cap">
+                                                                            <div class="card-body">
+                                                                              <h5 class="card-title">Voiceer Team</h5>
+                                                                              <p class="card-text"><i class="far fa-user"></i> 300 Members</p>
+                                                                              <p class="card-text">Your feedback is important to us </p>
+                                                                              <div class = "row" id = "btnset">
+                                                                                    <div class = "col-4">
+                                                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                    </div>
+                                                                                    <div class = "col-4">
+                                                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                        </div>
+                                                                                        <div class = "col-4">
+                                                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                            </div>
+                                                                                </div>
+                                                                              <a href="#" class="btn btn-primary" id = "btnset1">View Group</a>
+                                                                            </div>
+                                                                        </div>
+                                                            </div>
+                                                                    <div class = "col-3">
+                                                                            <div class="card" style="width: 18rem;">
+                                                                                    <img class="card-img-top" src="../images/sam.jpg" alt="Card image cap">
+                                                                                    <div class="card-body">
+                                                                                      <h5 class="card-title">Voiceer Team</h5>
+                                                                                      <p class="card-text"><i class="far fa-user"></i> 500 Members</p>
+                                                                                      <p class="card-text">Your feedback is important to us </p>
+                                                                                      <div class = "row" id = "btnset">
+                                                                                            <div class = "col-4">
+                                                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                            </div>
+                                                                                            <div class = "col-4">
+                                                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                </div>
+                                                                                                <div class = "col-4">
+                                                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                    </div>
+                                                                                        </div>
+                                                                                      <a href="#" class="btn btn-primary" id = "btnset1">View Group</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                    </div>
+                                                                            <div class = "col-3">
+                                                                                    <div class="card" style="width: 18rem;">
+                                                                                            <img class="card-img-top" src="../images/sam.jpg" alt="Card image cap">
+                                                                                            <div class="card-body">
+                                                                                              <h5 class="card-title">Voiceer Team</h5>
+                                                                                              <p class = "card-text"><i class="far fa-user"></i> 200 Members</p>
+                                                                                              <p class="card-text">Your feedback is important to us </p>
+                                                                                              <div class = "row" id = "btnset">
+                                                                                                    <div class = "col-4">
+                                                                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                    </div>
+                                                                                                    <div class = "col-4">
+                                                                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                        </div>
+                                                                                                        <div class = "col-4">
+                                                                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                            </div>
+                                                                                                </div>
+                                                                                              <a href="#" class="btn btn-primary" id = "btnset1">View Group</a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                            </div>
+                                                </div>
+                                                <!--second row cards-->
+                                                <div class = "row" id = "cards">
+                                                        <div class = "col-3">
+                                                                <div class="card" style="width: 18rem;">
+                                                                        <img class="card-img-top" src="../images/sam.jpg" alt="Card image cap">
+                                                                        <div class="card-body">
+                                                                          <h5 class="card-title">Voiceer Team</h5>
+                                                                          <p class="card-text"><i class="far fa-user"></i> 700 Members</p>
+                                                                          <p class="card-text">Your feedback is important to us </p>
+                                                                          <div class = "row" id = "btnset">
+                                                                                <div class = "col-4">
+                                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                </div>
+                                                                                <div class = "col-4">
+                                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                    </div>
+                                                                                    <div class = "col-4">
+                                                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                        </div>
+                                                                            </div>
+                                                                          <a href="#" class="btn btn-primary" id = "btnset1">View Group</a>
+                                                                        </div>
+                                                                    </div>
+                                                        </div>
+                                                                <div class = "col-3">
+                                                                        <div class="card" style="width: 18rem;">
+                                                                                <img class="card-img-top" src="../images/sam.jpg" alt="Card image cap">
+                                                                                <div class="card-body">
+                                                                                  <h5 class="card-title">Voiceer Team</h5>
+                                                                                  <p class="card-text"><i class="far fa-user"></i> 300 Members</p>
+                                                                                  <p class="card-text">Your feedback is important to us </p>
+                                                                                  <div class = "row" id = "btnset">
+                                                                                        <div class = "col-4">
+                                                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                        </div>
+                                                                                        <div class = "col-4">
+                                                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                            </div>
+                                                                                            <div class = "col-4">
+                                                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                </div>
+                                                                                    </div>
+                                                                                  <a href="#" class="btn btn-primary" id = "btnset1">View Group</a>
+                                                                                </div>
+                                                                            </div>
+                                                                </div>
+                                                                        <div class = "col-3">
+                                                                                <div class="card" style="width: 18rem;">
+                                                                                        <img class="card-img-top" src="../images/sam.jpg" alt="Card image cap">
+                                                                                        <div class="card-body">
+                                                                                          <h5 class="card-title">Voiceer Team</h5>
+                                                                                          <p class="card-text"><i class="far fa-user"></i> 500 Members</p>
+                                                                                          <p class="card-text">Your feedback is important to us </p>
+                                                                                          <div class = "row" id = "btnset">
+                                                                                                <div class = "col-4">
+                                                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                </div>
+                                                                                                <div class = "col-4">
+                                                                                                        <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                    </div>
+                                                                                                    <div class = "col-4">
+                                                                                                            <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                        </div>
+                                                                                            </div>
+                                                                                          <a href="#" class="btn btn-primary" id = "btnset1">View Group</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                        </div>
+                                                                                <div class = "col-3">
+                                                                                        <div class="card" style="width: 18rem;">
+                                                                                                <img class="card-img-top" src="../images/sam.jpg" alt="Card image cap">
+                                                                                                <div class="card-body">
+                                                                                                  <h5 class="card-title">Voiceer Team</h5>
+                                                                                                  <p class = "card-text"><i class="far fa-user"></i> 200 Members</p>
+                                                                                                  <p class="card-text">Your feedback is important to us </p>
+                                                                                                  <div class = "row" id = "btnset">
+                                                                                                        <div class = "col-4">
+                                                                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                        </div>
+                                                                                                        <div class = "col-4">
+                                                                                                                <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                            </div>
+                                                                                                            <div class = "col-4">
+                                                                                                                    <a href = "#" class = "btn btn-sm" id = "tag3" style="font-size: 12px">#future</a>
+                                                                                                                </div>
+                                                                                                    </div>
+                                                                                                  <a href="#" class="btn btn-primary" id = "btnset1">View Group</a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                </div>
+                                                    </div>
+                                                </div>
+                                                    <div id = "png">
+                                                            <img src = "../images/logo.png">
+                                                            </div>
+        </div>
+    </div>
+    <div class = "find">
+        <h5>Can't find the right Group <a href = "#">Create One</a></h5>
+    </div>
+</main>
+<div class = "footer">
+        <div class="row">
+          <div class="col-sm-2 ">
+            <img src = "../images/logo.png">
+  </div>
+  <div class="col-sm-4 ">
+      <i style = "font-size: 22px" class = "fab fa-facebook-square"></i>
+      <i  style = "font-size: 22px" class="fab fa-instagram"></i>
+      <i  style = "font-size: 22px" class="fab fa-twitter-square"></i>
+      <i  style = "font-size: 22px" class="fab fa-youtube"></i>
+    </div>
+    <div class="col-sm-4">
+    <ul>
+     <li><a style = "text-decoration: none" href = "#">Contact Us</a></li>
+      <li><a href = "#"style="margin-left: 40px">FAQ</a></li>
+    <li> <a href = "#" style="margin-left: 40px">Terms</a></li>
+      <li><a href = "#" style="margin-left: 40px">Privacy</a></li>
+      </ul>
+      </div>
+      <div class="col-sm-0 ">
+          <p>&copy;2019 Voiceer</p>
+        </div>
+  </div>
+  </div>
+  <script src = "group.js"></script>
+</body>
+</html>
