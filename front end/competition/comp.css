@@ -431,27 +431,84 @@ width: 155px;
 
 @media (min-width: 320px) and (max-width:812px) {
 
-   .first-column {
-        width: 100%;
-        padding-bottom: 10px;
-        float: none;
-        height: auto;
-    }
-
-    .second-column {
-        width: 100%;
-        padding-bottom: 10px;
-        float: none;
-        height: auto;
-    }
-    
-    .container1{
-      border: 1px solid white;
-      background-color: white;
-      margin-left: 3% auto;
-      max-width: 100%; 
-      border-radius: 4px;
-      font-size: 10px;
-      height: auto;
-    }
+  /* .main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 100px;
+    margin-left: 13%;
+  } */
+  
 }
+
+
+@media screen and (max-width:700px) {
+  .head{
+    width: 100%;
+    margin-left: 1%;
+  }
+  .first-column #card1{
+    width: 155%;
+    height: 60%;
+  }
+  .first-column #card1 #btn{
+    width: auto;
+  }
+  .second-column{
+    background-color: black;
+    display: none;
+  }
+  
+  .container1{
+    display: block;
+    width: 155%;
+    font-size: 11px;
+  }
+  #hr1{
+    width: 100%;
+  }
+  #hr2{
+    width: 100%;
+  }
+  #hr3{
+    width: 100%;
+  }
+  #hr4{
+    width: 100%;
+  }
+
+  .container1 h5{
+    display: block;
+    width: 160%;
+    font-size: 11px;
+  }
+  .container2{
+    display: block;
+    width: 160%;
+  }
+.container2 img{
+  margin-top: 15%;
+  height: 100px;
+  width: 60%;
+}
+  .container3{
+    display: block;
+    width: 160%;
+    font-size: 5px;
+  }
+
+  #up{
+    font-size: 12px;
+  }
+
+  #up2{
+    font-size: 12px;
+  }
+
+  #winner h5{
+    font-size: 12px;
+  }
+  #winner{
+    margin-left: -15px;
+  }
+}
+
