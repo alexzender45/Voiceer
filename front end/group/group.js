@@ -1,9 +1,9 @@
 const select = document.getElementById('select');
 const grid = document.getElementById('grid');
 const show = document.getElementById('display');
-const icon1 = document.getElementById('.icon1');
-const icon2 = document.getElementById('.icon2');
 const fade1 = document.getElementsByClassName('fade1');
+const tag = document.getElementsByClassName('tag');
+
 select.style.display = "none";
 
 
@@ -30,16 +30,18 @@ function display(){
     }
 }
 
+
 //toggle for 1
 
 function toggle1() {
     if(grid.style.display === "block"){
-        
         grid.style.display = "block";
         select.style.display = "none";
+        show.style.display = "flex";
     }else{
         grid.style.display = "block";
         select.style.display = "none";
+        show.style.display = "flex";
     }
 }
 
@@ -49,9 +51,13 @@ function toggle2() {
     if(select.style.display === "none"){
         grid.style.display = "none";
         select.style.display = "block";
+        show.style.display = "none";
     }  
 }
 
 
-// for icon1
+// for btn
+ function btn1(){
+ document.getElementById('form').innerHTML = tag; 
+ }
 

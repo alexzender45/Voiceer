@@ -1,0 +1,182 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    background-color: rgba(187, 187, 187, 0.123);
+}
+
+/* style for Navbar */
+.navbar-brand{
+  width: 12%;
+}
+navbar{
+  position: fixed;
+}
+.class3 img{
+  max-width: 170px;
+   max-height: 60px;
+    margin-top: -1px;
+}
+.class3 li a{
+  color: white;
+  opacity: 0.5;
+  font-size: 16px; 
+}
+
+.class3 .form-control{
+  border-radius: 20px;
+  margin-left:50px;
+  border-radius: 20px;
+  opacity: 0.2;
+  background-color: none;
+ }
+
+
+ #b{
+   color: white;
+ }
+
+ /* style for container1 first */
+
+ .container1 #first img{
+height: 150px;
+width: 234px;
+object-fit: cover;
+margin-left: -5.8%;
+background-color: white;
+ }
+.row{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+ #tag3{
+    border: 1px solid rgba(187, 187, 187, 0.582);
+    color: rgba(187, 187, 187, 0.582);
+    margin-left: -5%;
+}
+
+#first{
+  color:rgba(187, 187, 187, 0.589);
+  background-color: rgba(0, 0, 0, 0.863);
+  height: 655px;
+  font-size: 14px;
+  margin-left: 0%;
+ overflow: hidden;
+}
+
+#first h4{
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+#btnset{
+  font-size: 12px;
+}
+
+#first p{
+  margin-top: 7%;
+  font-size: 15px;
+}
+#first #b1{
+width: 90%;
+margin-bottom: 6%;
+}
+
+#first h6{
+  color: white;
+  margin-top: 5%;
+}
+
+#first #icon a{
+  color:rgba(187, 187, 187, 0.582);
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+/* style for container2 */
+
+#cont1{
+  background-color: white;
+  width: 160.3%;
+  margin-left: -1.8%;
+}
+
+#bot1{
+  border: 1px solid rgba(0, 0, 0, 0.473);
+  margin-left: 60%;
+}
+#btn2{
+  margin-left: 190%;
+  border: 1px solid black;
+  margin-top: 2.5%;
+  font-size: 12px;
+}
+#para{
+margin-top: 2.5%;
+}
+
+.member{
+  margin-left: 60%;
+  color: rgba(0, 0, 0, 0.678);
+}
+div#member1.col-4{
+  height: 2px;
+}
+  /* style for message show */
+
+  #message-show{
+    margin-top: -1%;
+  }
+
+  #message-show p{
+    margin-left: 20%;
+  }
+  .chat img{
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+  }
+
+  .chat p{
+    margin-left: -2%;
+    margin-top: 1%;
+  }
+.chat a{
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+  .login{
+    text-align: center;
+    margin-top: 4%;
+  }
+.member img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#left{
+  margin-top: 14px;
+}
+
+.member i{
+  margin-left: -3px;
+  font-size: 10px;
+  color: green;
+}
+.member a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.view{
+  width: 145%;
+  height: 655px;
+  margin-left: -2%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.view i{
+  color: rgba(0, 0, 0, 0.5);
+}
